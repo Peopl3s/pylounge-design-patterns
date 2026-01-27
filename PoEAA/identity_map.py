@@ -20,6 +20,7 @@ class _CacheEntry(Generic[T]):
 
 
 class IdentityMap(Generic[T, ID]):
+    """https://martinfowler.com/eaaCatalog/identityMap.html"""
     __slots__ = (
         "_id_getter",
         "_idle_ttl_ns",
@@ -195,4 +196,5 @@ user1 = User(id=1, name="Alice")
 identity_map.add(user1)
 
 retrieved = identity_map.get(1)
+
 print(retrieved)  # User(id=1, name='Alice')
