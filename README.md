@@ -1,1 +1,1 @@
-# PyLounge Design Patterns: Collection of design patterns and OOP-principles on Python (GoF, PoEAA, GRASP, KISS, YAGNI, DRY and etc.)
+# PyLounge Design Patterns: Collection of design patterns and OOP-principles on Python (GoF, PoEAA, GRASP, SOLID, KISS, YAGNI, DRY and etc.)
