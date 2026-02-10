@@ -2,3 +2,4 @@
 
 * PoEAA
   * [Identity Map](https://github.com/Peopl3s/pylounge-design-patterns/blob/main/PoEAA/identity_map.py)
+  * [Unit of work](https://github.com/Peopl3s/pylounge-design-patterns/blob/main/PoEAA/unit_of_work.py)
