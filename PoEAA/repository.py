@@ -14,6 +14,7 @@ class User:
 
 
 class UserRepositoryProtocol(Protocol):
+    """https://martinfowler.com/eaaCatalog/repository.html"""
     @abstractmethod
     def save(self, user: User) -> User: ...
 
@@ -62,5 +63,6 @@ user_repository = InMemoryUserRepository()
 
 user = User(id=uuid4(), email="email@email.ru", name="say my name")
 user_repository.save(user)
+
 
 print(user_repository.get_by_email(email="email@email.ru"))
